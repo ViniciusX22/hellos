@@ -9,8 +9,8 @@ dotenv.config();
 const app = express();
 const port = process.env.PORT || 3000;
 
-registerFont("./fonts/RobotoMono-MediumItalic.ttf", {
-  family: "Roboto Mono Medium",
+registerFont("./fonts/NotoSans-MediumItalic.ttf", {
+  family: "Noto Sans",
 });
 
 function drawHello({
@@ -36,7 +36,7 @@ function drawHello({
   ctx.fillStyle = bgColor || "teal";
   ctx.fillRect(0, 0, width, height);
 
-  ctx.font = `${fontSize}px "Roboto Mono Medium"`;
+  ctx.font = `${fontSize}px "Noto Sans"`;
   ctx.fillStyle = textColor;
 
   const text = hellos[Math.floor(Math.random() * hellos.length)];
