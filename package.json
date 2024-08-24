@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon index.ts"
+    "start": "nodemon index.ts",
+    "build": "tsc && cp fonts/*.ttf dist/fonts/"
   },
   "author": "Vinícius Xavier",
   "license": "ISC",
