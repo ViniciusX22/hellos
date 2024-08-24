@@ -1,11 +1,11 @@
 {
   "name": "hello",
   "version": "1.0.0",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.ts",
   "scripts": {
     "start": "nodemon index.ts",
-    "build": "tsc && cp fonts/*.ttf dist/fonts/"
+    "build": "tsc && cp fonts/*.ttf dist/fonts/",
+    "vercel-build": "echo hi"
   },
   "author": "Vinícius Xavier",
   "license": "MIT",
