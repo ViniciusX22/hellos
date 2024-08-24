@@ -73,7 +73,7 @@ function drawHello({
   ctx.font = `${fontSize}px "${font}"`;
   ctx.fillStyle = textColor;
 
-  const text = HELLOS[language as keyof typeof HELLOS];
+  const text = HELLOS[language];
   const textSize = ctx.measureText(text);
 
   ctx.fillText(
