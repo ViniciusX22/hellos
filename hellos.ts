@@ -1,0 +1,25 @@
+export const HELLOS = {
+  English: "Hello",
+  Spanish: "Hola",
+  French: "Bonjour",
+  German: "Hallo",
+  Italian: "Ciao",
+  Chinese: "你好",
+  Japanese: "こんにちは",
+  Korean: "안녕하세요",
+  Russian: "Привет",
+  Portuguese: "Olá",
+  Hindi: "नमस्ते",
+  Greek: "Γεια σου",
+  Dutch: "Hallo",
+  Swedish: "Hej",
+  Finnish: "Hei",
+  Turkish: "Merhaba",
+  Polish: "Cześć",
+  Czech: "Ahoj",
+  Serbian: "Zdravo",
+  Hawaiian: "Aloha",
+  Maori: "Kia ora",
+};
+
+export type Language = keyof typeof HELLOS;
