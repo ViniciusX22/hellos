@@ -2,6 +2,7 @@
   "name": "hello",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.ts",
     "build": "tsc && cp fonts/*.ttf dist/fonts/"
